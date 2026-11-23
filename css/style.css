@@ -218,3 +218,54 @@ footer .mala {
   margin-bottom: 8px;
 }
 
+@media (max-width: 900px) {
+  .kartice {
+    flex-direction: column;
+  }
+
+  .kartica {
+    margin: 0 0 20px 0;
+  }
+
+  .desno {
+    float: none;
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  nav ul {
+    margin-top: 10px;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  .hero img {
+    height: 260px;
+  }
+
+  .hero-tekst {
+    position: static;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .sadrzaj {
+    padding: 20px 15px 40px;
+  }
+}

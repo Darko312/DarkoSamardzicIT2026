@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://darko312.github.io/DarkoSamardzicIT2026/sitemap.xml

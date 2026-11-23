@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222b38;
+  background-color: #f5f7fb;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: #1b4fa3;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid #1b4fa3;
+  box-shadow: 0 4px 0 #d62828;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.crveno {
+  color: #d62828;
+}
+
+.plavo {
+  color: #1b4fa3;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 25px;
+}
+
+nav a {
+  color: #1b4fa3;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.aktivno {
+  color: #d62828;
+  border-bottom: 2px solid #d62828;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.hero-tekst {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  max-width: 560px;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-left: 6px solid #d62828;
+}
+
+h1 {
+  font-size: 34px;
+  color: #1b4fa3;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 26px;
+  color: #1b4fa3;
+  margin: 30px 0 12px;
+  padding-left: 12px;
+  border-left: 5px solid #d62828;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 12px 0 6px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+.dugme {
+  display: inline-block;
+  background-color: #d62828;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dugme:hover {
+  background-color: #a81e1e;
+}
+
+.sadrzaj {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 40px 50px;
+}
+
+.prednosti {
+  margin: 10px 0 10px 25px;
+}
+
+.kartice {
+  display: flex;
+}
+
+.kartica {
+  flex: 1;
+  background-color: #ffffff;
+  border-top: 4px solid #1b4fa3;
+  padding: 15px;
+  margin: 0 10px;
+}
+
+.desno {
+  float: right;
+  width: 40%;
+  margin: 0 0 15px 25px;
+}
+
+.centar {
+  text-align: center;
+  margin-top: 30px;
+  clear: both;
+}
+
+.cenovnik {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  margin: 15px 0;
+}
+
+.cenovnik th,
+.cenovnik td {
+  border: 1px solid #cfd8e6;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.cenovnik th {
+  background-color: #1b4fa3;
+  color: #ffffff;
+}
+
+.napomena {
+  font-size: 14px;
+  color: #5b6775;
+}
+
+.kontakt {
+  background-color: #ffffff;
+  padding: 20px;
+  border-left: 6px solid #1b4fa3;
+  margin: 15px 0;
+}
+
+ol {
+  margin-left: 25px;
+}
+
+footer {
+  background-color: #14284d;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 20px;
+  border-top: 5px solid #d62828;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer .mala {
+  font-size: 13px;
+  color: #b8c2d3;
+}
+
+.deli {
+  margin-bottom: 15px;
+}
+
+.deli p {
+  margin-bottom: 8px;
+}
+
